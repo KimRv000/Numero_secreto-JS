@@ -5,7 +5,6 @@ let max_rango = 10;
 let max_rangoUsuario = 0;
 
 const numSecreto = Math.floor(Math.random() * max_rango + 1);
-console.log(numSecreto);
 
 let resultado = "";
 let mensaje = "";
