@@ -72,7 +72,7 @@ myButtonNext.addEventListener("click", (e) => {
         contenedorTextoDos.innerText = `Tienes ${max_intentos - intentos} intentos`
     }
 
-    if (intentos > max_intentos) {
+    if (intentos > (max_intentos -1)) {
         contenedorTextoAzul.innerText = " Te quedaste sin intentos!"
         contenedorTextoUno.style.visibility = "hidden";
         contenedorTextoDos.style.visibility = "hidden";
